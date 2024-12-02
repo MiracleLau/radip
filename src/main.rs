@@ -10,7 +10,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args: Vec<String> = env::args().collect();
 
     // 获取用户指定的接口地址，如果未提供则使用默认地址
-    let binding = String::from("https://api.ipify.org");
+    let binding = String::from("http://whatismyip.akamai.com");
     let url = args.get(1).unwrap_or(&binding);
 
     // 创建表格
