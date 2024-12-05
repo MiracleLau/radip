@@ -2,6 +2,12 @@
 
 ## v0.2
 
-### Fix
+### Fixes
 
 Change api address
+
+## v0.1  
+
+### Features
+
+First release
